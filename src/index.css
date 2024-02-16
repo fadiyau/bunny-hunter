@@ -109,3 +109,17 @@ img {
 p {
   text-align: center;
 } */
+/* 
+@layer base {
+  body{
+    background-color: #14161b;
+  }
+} */
+
+.cards-wrapper{
+  display: flex;
+}
+
+.card{
+  margin: 0 .5em ;
+}
