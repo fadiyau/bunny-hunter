@@ -44,14 +44,14 @@ export default function App() {
         <div className='' style={{ width: '100%'}} >
           <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
-              <h1 className='d-flex justify-content-center pb-3 fw-bold' >Type</h1>
+              <h1 className='d-flex justify-content-center pb-3 fw-bold fst-italic' >Type</h1>
               <div class="carousel-item active">
                 <div className="cards-wrapper d-flex justify-content-center gap-5">
                   <div class="card" style={{width: '20rem'}}>
-                    <img src='src/assets/anggora.jpg' class="card-img-top" alt="..." style={{ height: '35%'}}/>
+                    <img src='src/assets/anggora.jpg' class="card-img-top" alt="..." style={{ height: '250px'}}/>
                     <div class="card-body">
                       <h5 class="card-title">Angora Rabbit (Ornamental)</h5>
-                      <p class="card-text">
+                      <p class="card-text " >
                       Kelinci Anggora is one of the most often recognised types of hias kelinci. This kelinci originates from Ankara, Turkey. There are four types of anggora that are classified as follows: Anggora Inggris, Anggora Perancis, Anggora Giant, and Anggora Jerman.
                       In general, this kelinci has a soft and flexible bulu. This weight ranges from 2 to 4 kg. Every month, anggora's bulb can grow by about 2 cm. In addition to being used as a kelinci hias, this type of bulu is often used as a wol.
                       One of the advantages of this type of kelinci is that it can be used to make wool. However, the above-mentioned kelinci kind needs to be taken into consideration because it is not from a tropical region, making illness transmission easier.
@@ -59,7 +59,7 @@ export default function App() {
                     </div>
                   </div>
                   <div class="card" style={{width: '20rem'}}>
-                    <img src='src/assets/lop.jpg' class="card-img-top" alt="..." style={{ height: '50%'}} />
+                    <img src='src/assets/lop.jpg' class="card-img-top" alt="..." style={{ height: '250px'}} />
                     <div class="card-body">
                       <h5 class="card-title">Lop Rabbit (Ornamental)</h5>
                       <p class="card-text">
@@ -71,7 +71,7 @@ export default function App() {
                     </div>
                   </div>
                   <div class="card" style={{width: '20rem'}}>
-                    <img src='src/assets/flemish.jpg' class="card-img-top" alt="..." style={{ height: '50%'}}/>
+                    <img src='src/assets/flemish.jpg' class="card-img-top" alt="..." style={{ height: '250px'}}/>
                     <div class="card-body">
                       <h5 class="card-title">Flemish Giant Rabbit (Meat/Ornamental)</h5>
                       <p class="card-text">
@@ -88,18 +88,18 @@ export default function App() {
               <div class="carousel-item">
                 <div className="cards-wrapper d-flex justify-content-center  gap-5">
                   <div class="card" style={{width: '20rem'}}>
-                    <img src='src/assets/rex.jpg' class="card-img-top" style={{ height: '50%'}}/>
+                    <img src='src/assets/rex.jpg' class="card-img-top" style={{ height: '250px'}}/>
                     <div class="card-body">
                       <h5 class="card-title">Rex Rabbit (Ornamental/Meat)</h5>
                       <p class="card-text">
                       Rex rabbits are rabbits originating from France. Rex rabbits are a breed of rabbit that is suitable for breeding in cold areas with temperatures of 5-15°C. This rabbit is used as an ornamental rabbit because of its cute shape, but can also be used as a meat rabbit.
-There are two types of Rex rabbits that are often bred, namely standard Rex and mini Rex. A standard Rex weighs 3.6-5 kg, while a mini Rex weighs 1.4-2 kg. Rex rabbit fur has a teval of around 1-2 cm. The fur colors recognized as standard Rex rabbit colors are black, blue, castor, lynx, opal, brown, red, white, chinchilla, lilac, Himalayan, broken, and tricolor.
-The advantage of this Rex rabbit is its beautiful fur color, so this rabbit is often used as a contest rabbit, besides that it can also be used as a meat rabbit. This rabbit can be trained with various tricks such as being called and given directions, apart from that, this rabbit is used as a leather producer.
+                      There are two types of Rex rabbits that are often bred, namely standard Rex and mini Rex. A standard Rex weighs 3.6-5 kg, while a mini Rex weighs 1.4-2 kg. Rex rabbit fur has a teval of around 1-2 cm. The fur colors recognized as standard Rex rabbit colors are black, blue, castor, lynx, opal, brown, red, white, chinchilla, lilac, Himalayan, broken, and tricolor.
+                      The advantage of this Rex rabbit is its beautiful fur color, so this rabbit is often used as a contest rabbit, besides that it can also be used as a meat rabbit. This rabbit can be trained with various tricks such as being called and given directions, apart from that, this rabbit is used as a leather producer.
                       </p>
                     </div>
                   </div>
                   <div class="card" style={{width: '20rem'}}>
-                    <img src='src/assets/netherland.jpg' class="card-img-top" alt="..." style={{ height: '50%'}}/>
+                    <img src='src/assets/netherland.jpg' class="card-img-top" alt="..." style={{ height: '250px'}}/>
                     <div class="card-body">
                       <h5 class="card-title">Netherland Dwarf Rabbit (Ornamental)</h5>
                       <p class="card-text">
@@ -110,7 +110,7 @@ The advantage of this Rex rabbit is its beautiful fur color, so this rabbit is o
                     </div>
                   </div>
                   <div class="card" style={{width: '20rem'}}>
-                    <img src='src/assets/himalayan.jpg' class="card-img-top" alt="..." style={{ height: '70%'}}/>
+                    <img src='src/assets/himalayan.jpg' class="card-img-top" alt="..." style={{ height: '250px'}}/>
                     <div class="card-body">
                       <h5 class="card-title">Himalayan Rabbit (Ornamental/Meat)</h5>
                       <p class="card-text">
@@ -125,7 +125,7 @@ The advantage of this Rex rabbit is its beautiful fur color, so this rabbit is o
               <div class="carousel-item">
                 <div className="cards-wrapper d-flex justify-content-center  gap-5">
                   <div class="card" style={{width: '20rem'}}>
-                    <img src='src/assets/satin.jpg' class="card-img-top" alt="..." style={{ height: '50%'}} />
+                    <img src='src/assets/satin.jpg' class="card-img-top" alt="..." style={{ height: '250px'}} />
                     <div class="card-body">
                       <h5 class="card-title">Satin Rabbit (Decorative)</h5>
                       <p class="card-text">
@@ -136,7 +136,7 @@ The advantage of this Rex rabbit is its beautiful fur color, so this rabbit is o
                     </div>
                   </div>
                   <div class="card" style={{width: '20rem'}}>
-                    <img src='src/assets/havana.jpg' class="card-img-top" alt="..." style={{ height: '50%'}}/>
+                    <img src='src/assets/havana.jpg' class="card-img-top" alt="..." style={{ height: '250px'}}/>
                     <div class="card-body">
                       <h5 class="card-title">Havana Rabbit (Ornamental)</h5>
                       <p class="card-text">
@@ -147,7 +147,7 @@ The advantage of this Rex rabbit is its beautiful fur color, so this rabbit is o
                     </div>
                   </div>
                   <div class="card" style={{width: '20rem'}}>
-                    <img src='src/assets/hotot.jpg' class="card-img-top" alt="..." style={{ height: '70%'}}/>
+                    <img src='src/assets/hotot.jpg' class="card-img-top" alt="..." style={{ height: '250px'}}/>
                     <div class="card-body">
                       <h5 class="card-title">Hotot Rabbit (Ornamental)</h5>
                       <p class="card-text ">
